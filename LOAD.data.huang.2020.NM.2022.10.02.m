@@ -63,28 +63,27 @@ hold on; plot(rsfMRI(:,2,1), 'r')
 legend('Left interior frontal gyrus', 'Right interior frontal gyrus')
 %We can see a fair bit of symmetric and syncronization pattern.
 
+%The first few time points are considered as outliers and can be removed. 
+%The start of scanning that cause various noise. However, the last time
+%points are not outliers. 
+%The occipital regions (visual area) are highly fluctuating since people 
+%usually think visually even when they close eyes inside the scannter. 
 
-%Since analyzing and displaying individual subject is meaningless, 
-%we display the avarge of all 100 subjects. 
+%Do not avarge all 100 subjects and display. This is total nonsense.
+% Registering and matching across hemisphere is reasonable but that is 
+% absurdity if we try to do that across subjects. Brain functions don't 
+% synchronize across subjects. What should have been done is doing 
+% Fourier expansion. Then average within specific frequency or bandpass.
+% That will match across subjects.  
 
 avgfMRI = mean(rsfMRI,3);
 figure; plot(avgfMRI(:,1), 'k'); 
 hold on; plot(avgfMRI(:,2), 'r')
 legend('Left interior frontal gyrus', 'Right interior frontal gyrus')
 
-avgfMRI = mean(rsfMRI,3);
-figure; plot(avgfMRI(:,3), 'k'); 
-hold on; plot(avgfMRI(:,4), 'r')
 
-avgfMRI = mean(rsfMRI,3);
-figure; plot(avgfMRI(:,5), 'k'); 
-hold on; plot(avgfMRI(:,6), 'r')
 
-%The first few time points are considered as outliers and can be removed. 
-%The start of scanning that cause various noise. However, the last time
-%points are not outliers. 
-%The occipital regions (visual area) are highly fluctuating since people 
-%usually think visually even when they close eyes inside the scannter. 
+
 
 
 
