@@ -12,5 +12,7 @@ FD based motion correction, scrubing and imputation. Also the data is centered t
 subject has different baseline of brain activation. Other image processing such as bandpass filtering and basis expansion are not applied. 
 If you are using the data for publication, please reference the paper above and github site.
 
+Simply load MATLAB live editor file SCRIPT.mlt
+
 (C) 2021- Moo K. Chung  mkchung@wisc.edu
 University of Wisconsin-Madison     
