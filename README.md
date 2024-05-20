@@ -1,6 +1,9 @@
-## rsfMRI time series data
+# rsfMRI time series data
 
 The script loads the subset of processed resting state fMRI data used in study
+
+## M.K. Chung, S. Das, and H. Ombao. Dynamic topological data analysis of functional human brain networks. Foundations of Data Science, 6:22–40, 2024. 
+
 
 Huang, S.-G., Samdin, S.B., Ting, C.M., Ombao, H., Chung, M.K. 
 2020 Statistical model for dynamically-changing correlation matrices 
