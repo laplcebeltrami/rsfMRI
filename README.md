@@ -1,6 +1,6 @@
 ## rsfMRI time series data
 
-The script loads the subset of processed rs-fMRI data used in study
+The script loads the subset of processed resting state fMRI data used in study
 
 Huang, S.-G., Samdin, S.B., Ting, C.M., Ombao, H., Chung, M.K. 
 2020 Statistical model for dynamically-changing correlation matrices 
