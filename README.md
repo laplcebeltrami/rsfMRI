@@ -4,6 +4,10 @@ The script loads the subset of processed resting state fMRI data used in study
 
 ## M.K. Chung, S. Das, and H. Ombao. Dynamic topological data analysis of functional human brain networks. Foundations of Data Science, 6:22–40, 2024. 
 
+The project is funded by NIH MH133614.
+
+
+
 The data set is also used in publication:
 
 Huang, S.-G., Samdin, S.B., Ting, C.M., Ombao, H., Chung, M.K. 
